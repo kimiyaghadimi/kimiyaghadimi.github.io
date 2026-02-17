@@ -18,3 +18,9 @@
     max-width: 100%;
 }
 
+.about {
+    padding: 100px 40px;
+    background-color: #5c452d; 
+    color: white;
+    text-align: center;
+}
