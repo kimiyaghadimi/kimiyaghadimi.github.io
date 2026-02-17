@@ -9,11 +9,20 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    
-    /* smooth scroll to dark brown */
-    
-    
+    display: flex;       
+}
+
+/* That smooth fade scroll to about section */
+.hero-fade {
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    height:35vh;
+    background: linear-gradient(to bottom, 
+        #00000000,
+        #190f0a
+    );
 }
 
 .overlay-image {
@@ -24,7 +33,9 @@
 
 .about {
     padding: 100px 40px;
-    background-color: #5c452d; 
+    background-color: #190f0a; 
     color: white;
     text-align: center;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
