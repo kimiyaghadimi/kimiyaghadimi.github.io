@@ -1,15 +1,6 @@
 body {
-  background-color: lightblue;
+    background-image: url("the_swamp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
-h1 {
-  color: white;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-
-
