@@ -1,6 +1,19 @@
-body {
-    background-image: url("the_swamp.jpg");
+.body {
+    background-image: url("the_swamp.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 755px;
+}
+
+
+.hero {
+    position: relative;
+    height: 100vh;
+}
+
+.overlay-image {
+    position: absolute;
+    height: auto;
+    max-width: 100%;
 }
