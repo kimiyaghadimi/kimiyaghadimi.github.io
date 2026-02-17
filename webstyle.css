@@ -10,6 +10,10 @@
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
+    
+    /* smooth scroll to dark brown */
+    
+    
 }
 
 .overlay-image {
