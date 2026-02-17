@@ -1,15 +1,18 @@
 .body {
-    background-image: url("the_swamp.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 755px;
+   margin: 0;
 }
 
 
 .hero {
-    position: relative;
     height: 100vh;
+    background-image: url("the_swamp.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .overlay-image {
