@@ -38,7 +38,8 @@
 .overlay-image {
     position: absolute;
     height: auto;
-    max-width: 100%;
+    width: 60vw;
+    /* max-width: */
 }
 
 .about {
@@ -52,4 +53,11 @@
 
 h2 {
     font-family: shrek_font, serif;
+}
+
+.mirror-image {
+   width: min(300px, 30vw);
+    height: auto;
+    display: block;
+    margin: 40px auto;
 }
