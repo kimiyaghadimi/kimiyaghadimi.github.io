@@ -17,7 +17,7 @@
         
         <div class="hero">
             <div class="hero-fade"></div>
-            <img src="shrek_title_04.png" alt="Shrek Title" class="overlay-image">
+            <img src="shrek_title_06.png" alt="Shrek Title" class="overlay-image">
         </div>    
         
         <section class="about">
@@ -29,8 +29,20 @@
             </p>
             <img src="magic_mirror_02.png" alt="Magic Mirror" class="mirror-image">
         </section>
-        
-    </body>
+        <audio id="bg-music" loop>
+            <source src="shrek_ambient_music.mp3" type="audio/mpeg">
+        </audio>
+        <script>
+        const music = document.getElementById("bg-music");
+    
+        function startMusic() {
+            music.volume = 0.4; 
+            music.play().catch(err => console.log("Playback blocked:", err));
+            document.removeEventListener("click", startMusic);
+        }
+    
+        document.addEventListener("click", startMusic);
+        </script>
     
     
 </html>
